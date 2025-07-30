@@ -8,7 +8,7 @@
   <button class="clear-btn"(click)="clearHistory()">Clear History</button>
 
   <div class="log">
-    <strong>Change Log:</strong>
+    <strong>Change History:</strong>
     <ol>
       <li *ngFor="let entry of log; let i = index">
         [{{ entry.action }}] Counter is now {{ entry.counter }}
