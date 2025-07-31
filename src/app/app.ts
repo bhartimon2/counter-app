@@ -58,6 +58,7 @@ export class App {
   }
 
   clearHistory() {
+    this.counter = 0;
     this.animateCounter();
     this.log = [];
     this.resetLoggedAtZero = false; 
